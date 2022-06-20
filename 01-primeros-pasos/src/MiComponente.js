@@ -4,12 +4,12 @@ import React from "react";
 // Funcion del componente
 const MiComponente = () => {
 
-    let nombre = "Mario"
-    let web = "MarioWeb.co"
+    let nombre = " Mario"
+    let web = " MarioWeb.co"
     let usuario  = {
-        facultad: "Ingenieria Electronica",
-        sexo: "Masculino",
-        codigo: "2136144"
+        facultad: " Ingenieria Electronica",
+        sexo: " Masculino",
+        codigo: " 2136144"
     }
 
     console.log(usuario);
