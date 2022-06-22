@@ -3,6 +3,7 @@ import './App.css';
 import MiComponente from './MiComponente';
 import { SegundoComponente } from './SegundoComponente';
 import { TecerComponente } from './TecerComponente';
+import { EventosComponente } from './EventosComponente';
 
 function App() {
 
@@ -19,12 +20,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+    
         <p>
           Bienvenido Al master React!!
         </p>
-    
+    <hr />
     {/*Cargar mi primer componente*/}
       <div className='componentes'>
+    
+        <EventosComponente />
+      
         
       <MiComponente />
       <hr />
