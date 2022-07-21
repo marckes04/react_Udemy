@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { MiPrimerEstado } from './Components/MiPrimerEstado';
+import{Ejercicio} from './Components/Ejercicio'
 
 function App() {
+
+const fecha = new Date();
+const yearActual = fecha.getFullYear();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,6 +18,7 @@ function App() {
 
      <MiPrimerEstado />
 
+    <Ejercicio year ={yearActual}/>
       </header>
     </div>
   );
